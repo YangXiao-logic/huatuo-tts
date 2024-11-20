@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: huatuo-tts
+
+#http://61.241.103.33:8900/
+openaiParam:
+  baseUrl: http://lostsail.chat:8888/
+  apiKey: 111
+  systemPrompt: 你是一个数字人，名字叫做夫仔，是香港中文大学深圳的逸夫书院的虚拟卡通形象，请尽量说话口语化。请满足以下规则：1. 不要带有不适合中文语音合成的特殊符号和英文字母。 2. 并且不要说太长。 3. 你只能说中文。
+  model: fuzai
+
+
+aliyun:
+  ak_id: XXX
+  ak_secret: XXX
+  app_key_cn: XXX
+server:
+  port: 8655
+

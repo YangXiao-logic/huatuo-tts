@@ -1,0 +1,9 @@
+services:
+  redis:
+    image: redis:latest
+    container_name: redis
+    command: redis-server --appendonly yes --requirepass yx123456
+    volumes:
+      - /mydata/redis/data:/data #数据文件目录挂载
+    ports:
+      - 6379:6379
